@@ -4,8 +4,11 @@
   "description": "Logging and diagnostics for reason-based debugging.",
   "main": "because.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "@lb:ldbco.de",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
 }
